@@ -10,6 +10,8 @@ declare(strict_types=1);
 
 namespace CodeInc\Utf8Sanitizer;
 
+use function iconv;
+
 /**
  * @see https://stackoverflow.com/questions/1523460/ensuring-valid-utf-8-in-php
  * @see https://www.w3.org/International/questions/qa-forms-utf-8.en
