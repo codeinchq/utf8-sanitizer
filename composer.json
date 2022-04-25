@@ -1,0 +1,38 @@
+{
+  "name": "codeinc/utf8-sanitize",
+  "version": "1.1.0",
+  "description": "Sanitize UTF-8 strings",
+  "homepage": "https://github.com/codeinchq/utf8-sanitizer",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0",
+    "ext-iconv": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodeInc\\Utf8Sanitizer\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CodeInc\\Utf8Sanitizer\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Joan Fabrégat",
+      "email": "joan@codeinc.co",
+      "homepage": "https://www.codeinc.co",
+      "role": "developer"
+    }
+  ],
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  }
+}
