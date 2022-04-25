@@ -1,5 +1,5 @@
 {
-  "name": "codeinc/utf8-sanitize",
+  "name": "codeinc/utf8-sanitizer",
   "version": "1.0",
   "description": "Sanitize UTF-8 strings",
   "homepage": "https://github.com/codeinchq/utf8-sanitizer",
