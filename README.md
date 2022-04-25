@@ -1,6 +1,6 @@
 # UTF-8 sanitizer
 
-A simple UTF-8 sanitizer written in PHP 8. 
+A simple UTF-8 sanitizer written in PHP 8. This code is based after this [StackOverflow response](https://stackoverflow.com/a/1523574/1839947) and the W3C UTF-8 verification [recommended regular expression](https://www.w3.org/International/questions/qa-forms-utf-8.en).  
 
 ## Usage
 ```php
