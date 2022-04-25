@@ -21,7 +21,7 @@ class Utf8Sanitizer
     public function sanitize(string $string): string
     {
         if (!$this->isValidUtf8($string)) {
-            $string = iconv('CP1252', 'UTF-8', $string);
+            $string = (string)@iconv('CP1252', 'UTF-8', $string);
         }
         return $string;
     }
