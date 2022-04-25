@@ -7,8 +7,11 @@ A simple UTF-8 sanitizer written in PHP 8. This code is based after this [StackO
 <?php
 
 $sanitizer = new \CodeInc\Utf8Sanitizer\Utf8Sanitizer();
+
+// validates a UTF-8 string
 $sanitizer->isValidUtf8("A valid UTF-8 string."); // true
 
+// sanitizes a string 
 $validString = $sanitizer->sanitize("An invalid UTF-8 string.");
 
 ```
