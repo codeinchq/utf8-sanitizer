@@ -14,6 +14,11 @@
       "CodeInc\\Utf8Sanitizer\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "CodeInc\\Tests\\Utf8Sanitizer\\": "tests/"
+    }
+  },
   "authors": [
     {
       "name": "Joan Fabrégat",
@@ -26,5 +31,9 @@
     "preferred-install": {
       "*": "dist"
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9",
+    "spatie/ray": "^1.34"
   }
 }
