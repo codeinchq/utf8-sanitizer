@@ -1,6 +1,6 @@
 {
   "name": "codeinc/utf8-sanitizer",
-  "version": "1.2",
+  "version": "1.3",
   "description": "Sanitize UTF-8 strings",
   "homepage": "https://github.com/codeinchq/utf8-sanitizer",
   "type": "library",
